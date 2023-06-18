@@ -2,8 +2,8 @@
 
 ## Inhaltsverzeichnis
 
-- [0. Vorwort](#0. Vorwort)
-- [1. Basis](#1. Basis)
+- [0. Vorwort](#0._Vorwort)
+- [1. Basis](#1.-Basis)
 	- [1.1 Zwischenergebnis](#1.1 Zwischenergebnis)
 - [2. Multistage Image](#2. Multistage Image)
 	- [2.1 docker-compose.yml](#2.1 docker-compose.yml)
