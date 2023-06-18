@@ -71,7 +71,7 @@ Ersetze den Inhalt der Datei **"/Project_folder/WebApi/Properties/launchSettings
 }
 ````
 
-#### 1.1 Zwischenergebnis
+### 1.1 Zwischenergebnis
 
 Nun ist die Anwendung einfach erreichbar indem man in dem **/Project_folder/WebApi** Verzeichnis den Befehl <dotnet run> ausführt und im Browser "http://localhost:5001" ansteuert.
 
@@ -81,7 +81,7 @@ mit "Ctrl+C" kann man die Anwendung beenden.
 
 # 2. Multistage Image
 
-#### 2.1 docker-compose.yml
+### 2.1 docker-compose.yml
 
 Erstelle im Verzeichnis **/Project_folder** ein File namens **"docker-compose.yml"** und öffne es in VSC.
 
@@ -105,7 +105,7 @@ services:
 
 Die **"docker-compose.yml"**-Datei wird verwendet um die Konfigurationen und das Starten von Anwendungen mit Docker-Compose-Kommandos zu definieren.
 
-#### 2.2 Dockerfile
+### 2.2 Dockerfile
 
 Erstelle im Verzeichnis **WebApi** ein File namens **"Dockerfile"** und öffne es in VSC.
 
@@ -143,7 +143,7 @@ In diesem **"Dockerfile"** werden zwei Container erstellt; den ersten Container 
 
 Der Vorteil an dem ist, dass der zweite Container viel kleiner ist da der Compiler abgekoppelt ist.
 
-#### 2.3 Zwischenergebnis
+### 2.3 Zwischenergebnis
 
 Nun ist das Projekt ausführbar mittels docker compose. 
 Um Änderungen zu verwenden und das Projekt starten zu können muss folgender Command ausgeführt werden;
@@ -171,7 +171,7 @@ docker compose down
 
 
 
-#### 3.1 MongoDB-Container
+### 3.1 MongoDB-Container
 
 Im **"WebApi"** Folder ist der **"MongoDB.Driver"** zu hinzufügen.
 
@@ -206,7 +206,7 @@ volumes:
 
 Der hinzugefügte Code macht, dass ein MongoDB-Container erzeugt und verbunden wird. 
 
-#### 3.2 Program.cs
+### 3.2 Program.cs
 
 In **"/Project_folder/WebApi/Program.cs"** ist der bestehende Code mit diesem zu ersetzen.
 
